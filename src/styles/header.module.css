@@ -1,0 +1,26 @@
+.header-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust to your desired max width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* Add some padding */
+  padding-right: 1rem; /* Add some padding */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-end {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
