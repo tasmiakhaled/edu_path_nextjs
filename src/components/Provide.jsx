@@ -37,7 +37,7 @@ const Provide = () => {
                         <Image alt='Mask' src="/Mask2.png" height={600} width={585} />
                         <Image
                             alt='Frame'
-                            src="/frame2.png"
+                            src="/Frame2.png"
                             height={74}
                             width={74}
                             className="absolute top-10 left-[-30px]"

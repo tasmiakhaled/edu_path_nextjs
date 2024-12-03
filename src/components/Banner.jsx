@@ -37,7 +37,7 @@ const Banner = () => {
                         <Image alt="Mask" src="/banner.png" height={760} width={648} />
                         <Image
                             alt="Frame"
-                            src="/frame.png"
+                            src="/Frame.png"
                             height={74}
                             width={74}
                             className="absolute top-10 left-[-30px]"
