@@ -26,13 +26,13 @@ const Testimonial = () => {
             id: 4,
             name: "Kilian Murphe",
             avatar: "/instructor1.png",
-            quote: "It's not just about physical health but mental and emotional well-being too.",
+            quote: "It&apos;s not just about physical health but mental and emotional well-being too.",
         },
         {
             id: 5,
             name: "Kilian Murphe",
             avatar: "/instructor1.png",
-            quote: "I love the flexibility of the courses. I can learn at my own pace and revisit the material whenever I need to. ",
+            quote: "I love the flexibility of the courses. I can learn at my own pace and revisit the material whenever I need to.",
         },
         {
             id: 6,
@@ -76,7 +76,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         {/* Content */}
-                        <p className="font-normal text-sm mb-6">"{testimonial.quote}"</p>
+                        <p className="font-normal text-sm mb-6">&quot:{testimonial.quote}&quot</p>
                     </div>
                 ))}
             </div>

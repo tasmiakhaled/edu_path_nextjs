@@ -17,12 +17,12 @@ const Banner = () => {
                             and Wellness
                         </h1>
                         <p className="mt-12 text-xl font-semibold">
-                            We’re restoring home as the primary <br />
+                            We&apos;re restoring home as the primary <br />
                             place of personal well-being
                         </p>
                         <p className="text-[rgba(0,0,0,0.7)] mt-6 font-normal">
-                            Health is not just about what you're eating. It's also <br />
-                            about what you're thinking and saying
+                            Health is not just about what you&apos;re eating. It&apos;s also <br />
+                            about what you&apos;re thinking and saying
                         </p>
                         <div className="mt-6 flex items-center">
                             <button className="btn btn-primary text-xs text-white rounded-full mr-3">
@@ -34,9 +34,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="relative lg:ml-0 sm:ml-4">
-                        <Image alt='Mask' src="/banner.png" height={760} width={648} />
+                        <Image alt="Mask" src="/banner.png" height={760} width={648} />
                         <Image
-                            alt='Frame'
+                            alt="Frame"
                             src="/frame.png"
                             height={74}
                             width={74}
