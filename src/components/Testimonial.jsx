@@ -76,7 +76,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         {/* Content */}
-                        <p className="font-normal text-sm mb-6">&quot:{testimonial.quote}&quot</p>
+                        <p className="font-normal text-sm mb-6">&quot;{testimonial.quote}&quot;</p>
                     </div>
                 ))}
             </div>
