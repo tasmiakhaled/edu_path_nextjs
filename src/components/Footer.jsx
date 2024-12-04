@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className=' bg-gray-100 lg:mt-0 sm:mt-[500px]'>
+        <div className=' bg-gray-100 lg:mt-0 xs:mt-[1300px] sm:mt-[500px]'>
             <div className='mx-auto max-w-screen-lg'>
                 <footer className="footer text-base-content p-10">
                     <nav>

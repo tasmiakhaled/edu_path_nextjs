@@ -13,6 +13,9 @@ module.exports = {
         customBlue: 'rgba(153, 152, 225, 0.2)',
         borderBlue: "rgba(153, 152, 225, 0.5)"
       },
+      screens: {
+        xs: "300px", 
+      },
     },
   },
   plugins: [

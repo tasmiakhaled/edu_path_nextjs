@@ -4,9 +4,9 @@ import React from 'react';
 const Banner = () => {
     return (
         <div className="bg-[rgba(240,241,238,1)]">
-            <div className="container mx-auto w-[1000px] h-[588px]">
+            <div className="container mx-auto lg:w-[1000px] lg:h-[588px] sm:h-[1180px] xs:h-[810px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
-                    <div className="flex flex-col items-start justify-center sm:mb-4">
+                    <div className="flex flex-col items-start justify-center xs:ml-1 xs:mb-2 sm:mb-4">
                         <div className="flex items-center">
                             <Image alt="Rating Icon" src="/rating.png" height={24} width={120} />
                             <h6 className="ml-2">4.9(566)</h6>
@@ -42,7 +42,7 @@ const Banner = () => {
                             width={74}
                             className="absolute top-10 left-[-30px]"
                         />
-                        <div className="absolute bottom-0 left-0 w-[500px] rounded-b-lg shadow-md border-none border-gray-300 p-4">
+                        <div className="absolute bottom-0 left-0 lg:w-[500px] xs:w-[300px] sm:w-[500px] rounded-b-lg shadow-md border-none border-gray-300 p-4">
                             <div className="bg-[rgba(255,255,255,0.7)] rounded-lg border border-gray-400 shadow-md">
                                 <div className="flex items-center mb-4 p-2">
                                     <h3 className="text-4xl font-bold mr-4">12,000+</h3>
@@ -53,7 +53,7 @@ const Banner = () => {
                                         width={1}
                                         className="h-10 w-[1px]"
                                     />
-                                    <p className="text-xl ml-4 font-semibold">
+                                    <p className="text-xl ml-4 font-semibold ">
                                         Happy learners rely on <br /> us regularly
                                     </p>
                                 </div>

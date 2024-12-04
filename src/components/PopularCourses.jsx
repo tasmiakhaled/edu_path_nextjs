@@ -58,16 +58,16 @@ const PopularCourses = () => {
     ];
 
     return (
-        <div className="container mx-auto w-[1000px] h-[670px] py-10">
+        <div className="container lg:mx-auto w-[1000px] h-[670px] py-10 xs:mx-10">
             <div className="flex justify-between mb-8">
-                <div className='lg:mt-2 sm:mt-[600px]'> 
+                <div className='lg:mt-2 sm:mt-[80px]'> 
                     <h2 className="text-3xl font-bold">Our popular courses</h2>
                     <p className="text-gray-500 mt-2 text-xs">
                         By taking proactive steps to nurture mental health, we can enhance our quality of life, <br />
                         build resilience, and foster a sense of inner peace and balance.
                     </p>
                 </div>
-                <div className='mt-12'>
+                <div className='lg:mt-12 sm:mt-[80px]'>
                     <Image alt="Arrow" src="/arrow.png" height={56} width={90} />
                 </div>
 

@@ -43,7 +43,7 @@ const Testimonial = () => {
     ];
 
     return (
-        <div className="container mx-auto h-[500px] lg:mt-0 sm:mt-[500px]">
+        <div className="container mx-auto h-[500px] lg:mt-0 xs:mt-60 sm:mt-[500px]">
             <div className="text-center">
                 <p className="text-3xl font-semibold mb-8">Learners love EduPath. See why <br />they rate us 4.9 out of 5</p>
             </div>

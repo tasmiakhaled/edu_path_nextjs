@@ -3,7 +3,7 @@ import React from 'react';
 
 const Provide = () => {
     return (
-        <div className="bg-white lg:mt-10 sm:mt-[1000px]">
+        <div className="bg-white xs:mt-[1300px] lg:mt-10 sm:mt-[1000px]">
             <div className="container mx-auto w-[1000px] h-[660px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="flex flex-col items-start">
@@ -16,7 +16,7 @@ const Provide = () => {
                             <Image alt="Tick Mark" src="/tickGray.png" height={25} width={25} />
                             <p className='text-xl ml-8 text-gray-700'>Follow-up after completing courses</p>
                         </div>
-                        <div className='w-[424px] h-[154px] border-y-[2px] border-base-300 mt-10'>
+                        <div className='w-[424px] h-[154px] xs:w-[350px] xs:h-[170px] border-y-[2px] border-base-300 mt-10'>
                             <div className="flex items-center mt-2">
                                 <Image alt="Tick Mark" src="/tickPurple.png" height={32} width={32} />
                                 <p className='text-xl ml-6 font-semibold'>Access to additional resources</p>
@@ -27,7 +27,7 @@ const Provide = () => {
                             <Image alt="Tick Mark" src="/tickGray.png" height={25} width={25} />
                             <p className='text-xl ml-8 text-gray-700'>Free community support</p>
                         </div>
-                        <div className="mt-14 flex items-center">
+                        <div className="mt-14 xs:mb-4 flex items-center">
                             <button className="btn text-xs text-primary bg-white outline outline-primary rounded-full sm:mb-4">
                                 Learn More About Our Services
                             </button>
